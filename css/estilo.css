@@ -1,10 +1,100 @@
 h1 {
-    color:red;
+    color:orange;
 }
 h1.pagina1{
-    color:blue;
+    color:orange;
 
 }
  body ul li {
-    color:green;
+    color:orange;
  }
+ h1 {
+    color: orange;
+}
+.center {
+    color: orange;
+}
+h2,h3,h4,h5,h6 {
+    display: none;
+
+}
+body ul li {
+    color:orangered;
+}
+p{
+    text-decoration: underline orangered double 0.1rem;
+    text-indent: 1rem ;
+}
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2rem;
+    color:orange;
+    font: italic bold 1rem monospace;
+    text-shadow: 0.1rem 0.2rem 0.3rem black 0 0 1rem darkblue 0 0 1rem blue;
+}
+a:link,a:active {
+    text-decoration: none;
+    color: crimson;
+}
+a:visited {
+    color: firebrick
+}
+a:hover {
+    color: red;
+}
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 3rem;
+    background-color: purple;
+    color: orange;
+    border: 0.1rem solid orange;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+footer {
+    clear: both;
+    background: white url("../img/mexerica.png") repeat left bottom;
+    height: 304px;
+}
+h1#page1 {
+    color: green;
+    border: 0.1rem solid black;
+}
+img {
+    width: 15rem;
+    float: right
+}
+ol {
+    list-style-type: circle;
+}
+h1.page2 {
+    color: greenyellow;
+    border: 0.1rem groove blueviolet;
+    border-radius: 0.7rem;
+}
+ul {
+    list-style-type: upper-roman;
+}
+section img {
+    float: right
+}
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1.5rem;
+}
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article {
+    background-color: darkblue;
+    margin: 1rem;
+    padding: 2rem;
+}
